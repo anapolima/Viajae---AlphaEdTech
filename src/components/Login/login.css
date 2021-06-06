@@ -1,0 +1,74 @@
+.home-login-conteiner {
+    display: flex;
+    align-items: center !important;
+
+    width: 100%;
+    height: 100vh;
+}
+
+.home-big-logo{
+    width: 50%;
+    height: 100vh;
+
+    display: inline-flex;
+    justify-content: center;
+
+    background-color: #2541B2;
+}
+
+.home-big-logo img {
+    background-color: inherit;
+    width: inherit;
+}
+
+.login-inputs {
+    display: flex;
+    flex-direction: column;
+    margin-left: 129px;
+}
+
+.home-title {
+    font-weight: 500;
+    font-size: 32px;
+    margin-bottom: 24px;
+}
+
+.home-name-input,
+.home-email-input {
+    width: 419px;
+    height: 60px;
+
+    border: 1px solid #E6E6F0;
+    border-radius: 5px;
+
+    text-indent: 21px;
+    font-size: 16px;
+    
+    margin-top: 8px;
+}
+
+.obrigatory-field-message {
+    margin-top: 3px;
+    font-size: 12px;
+    text-indent: 21px;
+    color: #bb6d66;
+}
+
+.check-available-cities {
+    background-color: #2541B2;
+    color: #fff;
+
+    font-size: 16px;
+    font-weight: 500;
+
+    width: 419px;
+    height: 60px;
+
+    border-radius: 5px;
+    margin-top: 24px;
+}
+
+.check-available-cities:hover {
+    cursor: pointer;
+    background-color: #2e53e6;
+}

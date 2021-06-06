@@ -1,0 +1,56 @@
+.city-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 256px;
+    height: 266px;
+    background-color: #fff;
+
+    margin-bottom: 32px;
+
+    border-radius: 5px;
+    border: 1px solid #E6E6F0;
+
+    transition: all .5s;
+    transform: scale(1);
+
+    box-shadow: none;
+}
+
+.city-card:hover {
+    cursor: pointer;
+    transition: all .5s;
+    transform: scale(1.01);
+
+    box-shadow: 0px 0px 10px 0px #3C3D40;
+}
+
+.city-card-image {
+    position: relative;
+    top: -4px;
+
+    margin-bottom: 24px;
+
+    width: 256px;
+    height: 160px;
+
+    border-radius: 5px 5px 0px 0px;
+}
+
+.city-card-name {
+    text-indent: 24px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: inherit;
+}
+
+.city-card-state {
+    text-indent: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #617480;
+    background-color: inherit;
+
+    margin-bottom: 24px;
+}

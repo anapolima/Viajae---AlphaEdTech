@@ -1,0 +1,66 @@
+.city-details-conteiner {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.city-detail-header {
+    margin-top: 42px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.confirm-visit {
+    display: flex;
+    align-items: center;
+}
+
+.confirm-visit-text {
+    margin-left: 14px;
+    color: #2541B2;
+
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.confirm-visit-text:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.city-detail-name {
+    color: #2541B2;
+    font-size: 32px;
+}
+
+.city-detail-state {
+    color: #61747F;
+    font-size: 14px;
+    margin-bottom: 24px;
+}
+
+.city-description {
+    width: 680px;
+}
+
+.city-detail-image {
+    margin-top: 2vh;
+    height: 264px;
+    border-radius: 10px;
+    background-position-y: -200px;
+
+    transition: all linear .5s;
+}
+
+.city-detail-image:hover {
+    transition: all linear .5s;
+    transition-delay: 1.5s;
+
+    background-position: 0px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    
+    height: 400px;
+}
+

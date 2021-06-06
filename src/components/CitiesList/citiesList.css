@@ -1,0 +1,12 @@
+#cities-list {
+    margin: auto;
+    width: 100%;
+    max-width: 1120px;
+    justify-content: space-between;
+
+    margin-top: 7vh;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
